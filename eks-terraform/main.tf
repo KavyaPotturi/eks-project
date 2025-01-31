@@ -53,7 +53,7 @@ provider "aws" {
   }
 
   resource "aws_iam_policy" "autoscaler" {
-    name = "kavya-eks-autoscaler-policy1"
+    name = "kavya-eks-autoscaler-policy2"
     policy = jsonencode({
       "Version": "2012-10-17",
       "Statement": [
